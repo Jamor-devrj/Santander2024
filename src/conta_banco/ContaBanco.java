@@ -30,6 +30,5 @@ public class ContaBanco {
 		System.out.println("Olá "+ nome +", obrigado por criar uma conta em nosso banco, sua agência é " + agencia +", conta " + numero + " e seu saldo R$"+ String.format("%.2f", saldo) +" já está disponível para saque.");
 		
 		sc.close();
-
 	}
 }
